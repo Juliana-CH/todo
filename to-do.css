@@ -1,0 +1,57 @@
+body {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  font-size: 14px;
+}
+
+li {
+  list-style-type: none;
+  padding-right: 200px;
+}
+
+#linha-horizontal {
+  width: 620px;
+  border: 0.05rem solid #c8c8c8;
+}
+
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+
+[type="checkbox1"]{
+  width: 14px;
+  height: 14px;
+  border: 1px solid #c8c8c8;
+  border-radius: 2px;
+}
+
+[type="checkbox2"]{
+  width: 14px;
+  height: 14px;
+  border: 1px solid #c8c8c8;
+  border-radius: 2px;
+}
+
+[type="checkbox3"]{
+  width: 14px;
+  height: 14px;
+  border: 1px solid #c8c8c8;
+  border-radius: 2px;
+}
+
+
+
