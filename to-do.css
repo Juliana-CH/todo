@@ -1,7 +1,6 @@
 body {
   font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 100;
 }
 
 h1 {
@@ -28,7 +27,7 @@ li {
   background-color: #0073ff;
   color: white;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   height: 30px;
   line-height: 20px;
   vertical-align: center;
@@ -43,7 +42,7 @@ li {
   font-weight: 200;
 }
 
-[type="checkbox1"]{
+[type="checkbox"]{
   width: 14px;
   height: 14px;
   border: 1px solid #c8c8c8;
@@ -51,35 +50,28 @@ li {
   vertical-align: middle;
 }
 
-[type="checkbox2"]{
-  width: 14px;
-  height: 14px;
-  border: 1px solid #c8c8c8;
-  border-radius: 3px;
-  vertical-align: middle;
+[type="checkbox"]:checked {
+  background-color: #0073ff;
 }
 
-[type="checkbox3"]{
-  width: 14px;
-  height: 14px;
-  border: 1px solid #c8c8c8;
-  border-radius: 3px;
-  vertical-align: middle;
+[type="checkbox"]:checked + .textCode {
+  text-decoration: line-through;
+  color: #c8c8c8;
 }
+
 
 .buttonDelete {
+  width: 100px;
   background-color: #e04646;
-  color: #fff;
+  color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 5px;
   height: 30px;
   line-height: 20px;
   vertical-align: center;
-  width: 100px;
-  position: absolute;
+  justify-content: right;
+  position: relative;
+    left: 530px;
   cursor: pointer;
 
 }
-
-
-
