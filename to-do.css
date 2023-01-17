@@ -56,7 +56,7 @@ li {
 
 [type="checkbox"]:checked + .textCode {
   text-decoration: line-through;
-  color: #c8c8c8;
+  color: #9b9b9b;
 }
 
 
@@ -75,3 +75,5 @@ li {
   cursor: pointer;
 
 }
+
+
