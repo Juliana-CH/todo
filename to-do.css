@@ -1,0 +1,7 @@
+[type="checkbox"],
+[type="radio"] {
+  width: 12px;
+  height: 12px;
+  border: 1px solid red;
+  background-color: pink;
+}
